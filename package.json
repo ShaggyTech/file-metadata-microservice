@@ -1,0 +1,28 @@
+{
+  "name": "file-metadata-microservice",
+  "version": "1.0.0",
+  "description": "Returns size of submitted file",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShaggyTech/file-metadata-microservice.git"
+  },
+  "author": "Brandon Eichler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ShaggyTech/file-metadata-microservice/issues"
+  },
+  "homepage": "https://github.com/ShaggyTech/file-metadata-microservice#readme",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.15.4",
+    "multer": "^1.3.0",
+    "path": "^0.12.7"
+  },
+  "engines": {
+    "node": "8.x"
+  }
+}

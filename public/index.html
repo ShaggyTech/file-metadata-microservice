@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Backend Challenges | Free Code Camp</title>
+    <link rel="shortcut icon" href="https://cdn.hyperdev.com/us-east-1%3A52a203ff-088b-420f-81be-45bf559d01b1%2Ffavicon.ico"
+        type="image/x-icon" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://bootswatch.com/spacelab/bootstrap.min.css">
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="jumbotron text-center">
+            <h1>File Metadata Microservice</h1>
+            <p class="lead">Choose a file and then upload it to retrieve it's size.</p>
+            <br />
+            <form action="/filesize" method="post" enctype="multipart/form-data" class="form-inline">
+                <input type="file" name="file" class="form-control">
+                <button type="submit" class="btn btn-primary">Get File Size</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
